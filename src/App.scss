@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  font-family: normal;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  padding: 150px 17px 74px 17px;
+  background-color: black;
+  border-radius: 50px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.9);
+}
+
+
+
