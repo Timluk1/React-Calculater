@@ -11,7 +11,7 @@ function Buttons() {
                 typeButton="clear"
                 isBig={false}
                 text="AC"
-                imgPath="icons/Clear.svg"
+                imgPath="/icons/Clear.svg"
             />
             <Button
                 backgroundColor="white"
@@ -19,7 +19,7 @@ function Buttons() {
                 typeData="img"
                 typeButton="changeSign"
                 isBig={false}
-                imgPath="icons/ChangeSign.svg"
+                imgPath="/icons/ChangeSign.svg"
             />
             <Button
                 backgroundColor="white"
@@ -27,7 +27,7 @@ function Buttons() {
                 typeData="img"
                 typeButton="procent"
                 isBig={false}
-                imgPath="icons/Procent.svg"
+                imgPath="/icons/Procent.svg"
             />
             <Button
                 backgroundColor="orange"
@@ -35,7 +35,7 @@ function Buttons() {
                 typeData="img"
                 typeButton="division"
                 isBig={false}
-                imgPath="icons/Division.svg"
+                imgPath="/icons/Division.svg"
             />
             <Button
                 backgroundColor="gray"
@@ -67,7 +67,7 @@ function Buttons() {
                 typeData="img"
                 typeButton="multiplication"
                 isBig={false}
-                imgPath="icons/Multiplication.png"
+                imgPath="/icons/Multiplication.png"
             />
             <Button
                 backgroundColor="gray"
@@ -99,7 +99,7 @@ function Buttons() {
                 typeData="img"
                 typeButton="minus"
                 isBig={false}
-                imgPath="icons/Minus.svg"
+                imgPath="/icons/Minus.svg"
             />
             <Button
                 backgroundColor="gray"
@@ -131,7 +131,7 @@ function Buttons() {
                 typeData="img"
                 typeButton="plus"
                 isBig={false}
-                imgPath="icons/Plus.svg"
+                imgPath="/icons/Plus.svg"
             />
             <Button
                 backgroundColor="gray"
@@ -155,7 +155,7 @@ function Buttons() {
                 typeData="img"
                 typeButton="equal"
                 isBig={false}
-                imgPath="icons/Equal.svg"
+                imgPath="/icons/Equal.svg"
             />
         </div>
     );
