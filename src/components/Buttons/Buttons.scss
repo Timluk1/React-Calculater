@@ -3,3 +3,11 @@
     gap: 14px;
     grid-template-columns: repeat(4, 4fr);
 }
+
+@media (max-width: 500px) {
+    .buttons {
+        display: grid;
+        gap: 8px;
+        grid-template-columns: repeat(4, 4fr);
+    }
+}
