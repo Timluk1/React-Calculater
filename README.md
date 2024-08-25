@@ -13,7 +13,7 @@ This project is a simple and user-friendly calculator built using React, TypeScr
 ## Calculator Demonstration
 
 Watch the video below to see how the calculator works:
-<video controls>
+<video>
   <source src="https://github.com/user-attachments/assets/4958d374-3399-4c11-ac54-807f4b0a567b" type="video/mp4">
 </video>
 
