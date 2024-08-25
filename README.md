@@ -14,6 +14,8 @@ This project is a simple and user-friendly calculator built using React, TypeScr
 
 Watch the video below to see how the calculator works:
 
+[![Calculator Demo](https://github.com/user-attachments/assets/4958d374-3399-4c11-ac54-807f4b0a567b)
+
 ## Instructions for Running the Project
 
 ### 1. Clone the repository
