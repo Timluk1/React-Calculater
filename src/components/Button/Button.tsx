@@ -13,6 +13,8 @@ interface Props {
 }
 
 function Button(props: Props) {
+
+    // деструктуризация props
     const {
         backgroundColor,
         fontColor,
@@ -23,13 +25,21 @@ function Button(props: Props) {
         isBig,
     } = props;
 
+    // получаем контекст
     const context = useContext(ContextApp);
+
+    // если контекст неопределен, то возвращаем фрагмент
     if (!context) {
         return <></>;
     }
 
+    // из контекста получаем текущий знак и обработчик нажатия кнопки
     const { handleClickButton, sign } = context;
 
+    // формируем класс для правильной стилизации кнопки
+    // bc - background-color, fc - color
+    // active меняет фон кнопки на более светлый
+    // button-big занимает в гриде два элемента вместо одного
     const className: string = `
         button button-bc-${sign === typeButton ? "active-" : ""}${backgroundColor} 
         button-fc-${fontColor} 
@@ -38,8 +48,9 @@ function Button(props: Props) {
     return (
         <button
             className={className}
+            /* если кнопка число, то передаем также значение иначе только тип кнопки*/
             onClick={() => typeButton === "number" ? handleClickButton(typeButton, Number(text)) : handleClickButton(typeButton)}
-        >
+        >   
             {typeData === "img" && imgPath ? (
                 <img src={imgPath} alt={typeButton} />
             ) : (

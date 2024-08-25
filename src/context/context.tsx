@@ -21,7 +21,7 @@ const ContextProvider: FC<ContextProviderProps> = ({ children }) => {
     const [sign, setSign] = useState<string | undefined>(undefined);
     const [result, setResult] = useState<string>("0");
 
-    // Функция проверки длины строки с числом
+    // Функция проверки длины строки
     function isCorrectNumber(number: string): boolean {
         return number.length <= 8;
     }
@@ -80,7 +80,7 @@ const ContextProvider: FC<ContextProviderProps> = ({ children }) => {
     // Функция обработки нажатия кнопок с числами
     function handleClickNumberButton(number: number): void {
         if (secondNumber === undefined) {
-            if (firstNumber === "0" && !firstNumber.includes(".")) {
+            if (firstNumber === "0" && !firstNumber.includes(".") && !sign) {
                 setFirstNumber(String(number));
                 setResult(String(number));
             } else if (sign) {
