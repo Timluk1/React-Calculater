@@ -13,9 +13,12 @@ This project is a simple and user-friendly calculator built using React, TypeScr
 ## Calculator Demonstration
 
 Watch the video below to see how the calculator works:
-<video>
-  <source src="https://github.com/user-attachments/assets/4958d374-3399-4c11-ac54-807f4b0a567b" type="video/mp4">
-</video>
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/4958d374-3399-4c11-ac54-807f4b0a567b" type="video/mp4" controls>
+    Ваш браузер не поддерживает встроенные видео. <a href="https://github.com/user-attachments/assets/251fef7d-b081-4051-8e73-6ff0242b3da2">Скачайте видео</a>.
+  </video>
+</p>
 
 ## Instructions for Running the Project
 
